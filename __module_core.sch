@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 2 2
 Title ""
 Date ""
 Rev ""
@@ -325,7 +325,7 @@ AR Path="/6466703A" Ref="C?"  Part="1"
 AR Path="/64492573/6466703A" Ref="C7"  Part="1" 
 F 0 "C7" V 4102 1450 50  0000 C CNN
 F 1 "1u" V 4011 1450 50  0000 C CNN
-F 2 "Capacitor_THT:C_Radial_D10.0mm_H12.5mm_P5.00mm" H 3888 1300 50  0001 C CNN
+F 2 "Attenuverter:C_Axial_L4.8mm_D3.1mm_P5.08mm_Horizontal" H 3888 1300 50  0001 C CNN
 F 3 "~" H 3850 1450 50  0001 C CNN
 	1    3850 1450
 	0    -1   -1   0   
@@ -458,7 +458,7 @@ AR Path="/64667079" Ref="U?"  Part="1"
 AR Path="/64492573/64667079" Ref="U2"  Part="1" 
 F 0 "U2" H 3700 6742 50  0000 C CNN
 F 1 "L78L05_TO92" H 3700 6651 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3700 6725 50  0001 C CIN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 3700 6725 50  0001 C CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf" H 3700 6450 50  0001 C CNN
 	1    3700 6500
 	1    0    0    -1  
@@ -536,7 +536,7 @@ AR Path="/6466709D" Ref="U?"  Part="1"
 AR Path="/64492573/6466709D" Ref="U3"  Part="1" 
 F 0 "U3" H 3700 6951 50  0000 C CNN
 F 1 "L79L05_TO92" H 3700 6860 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3700 6900 50  0001 C CIN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 3700 6900 50  0001 C CIN
 F 3 "http://www.farnell.com/datasheets/1827870.pdf" H 3700 7100 50  0001 C CNN
 	1    3700 7100
 	1    0    0    -1  
@@ -822,14 +822,14 @@ Wire Wire Line
 $Comp
 L Amplifier_Operational:TL074 U?
 U 2 1 6466712E
-P 7600 1500
+P 8700 2850
 AR Path="/6466712E" Ref="U?"  Part="2" 
 AR Path="/64492573/6466712E" Ref="U1"  Part="2" 
-F 0 "U1" H 7600 1867 50  0000 C CNN
-F 1 "TL074" H 7600 1776 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 7550 1600 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 7650 1700 50  0001 C CNN
-	2    7600 1500
+F 0 "U1" H 8700 3217 50  0000 C CNN
+F 1 "TL074" H 8700 3126 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 8650 2950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8750 3050 50  0001 C CNN
+	2    8700 2850
 	1    0    0    1   
 $EndComp
 $Comp
@@ -848,14 +848,14 @@ $EndComp
 $Comp
 L Amplifier_Operational:TL074 U?
 U 4 1 6466713A
-P 7600 2850
+P 7600 1500
 AR Path="/6466713A" Ref="U?"  Part="4" 
 AR Path="/64492573/6466713A" Ref="U1"  Part="4" 
-F 0 "U1" H 7600 3217 50  0000 C CNN
-F 1 "TL074" H 7600 3126 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 7550 2950 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 7650 3050 50  0001 C CNN
-	4    7600 2850
+F 0 "U1" H 7600 1867 50  0000 C CNN
+F 1 "TL074" H 7600 1776 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 7550 1600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 7650 1700 50  0001 C CNN
+	4    7600 1500
 	1    0    0    1   
 $EndComp
 $Comp
@@ -1258,14 +1258,14 @@ reference voltage supply
 $Comp
 L Amplifier_Operational:TL074 U?
 U 1 1 64667205
-P 8700 2850
+P 7600 2850
 AR Path="/64667205" Ref="U?"  Part="1" 
 AR Path="/64492573/64667205" Ref="U1"  Part="1" 
-F 0 "U1" H 8700 3217 50  0000 C CNN
-F 1 "TL074" H 8700 3126 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 8650 2950 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8750 3050 50  0001 C CNN
-	1    8700 2850
+F 0 "U1" H 7600 3217 50  0000 C CNN
+F 1 "TL074" H 7600 3126 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 7550 2950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 7650 3050 50  0001 C CNN
+	1    7600 2850
 	1    0    0    1   
 $EndComp
 Text Label 6850 6200 0    50   ~ 0
@@ -1278,7 +1278,7 @@ AR Path="/6466720C" Ref="U?"  Part="1"
 AR Path="/64492573/6466720C" Ref="U5"  Part="1" 
 F 0 "U5" H 5800 6442 50  0000 C CNN
 F 1 "LM317L_TO92" H 5800 6351 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5800 6425 50  0001 C CIN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 5800 6425 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/snvs775k/snvs775k.pdf" H 5800 6200 50  0001 C CNN
 	1    5800 6200
 	1    0    0    -1  
@@ -1330,7 +1330,7 @@ AR Path="/64667224" Ref="C?"  Part="1"
 AR Path="/64492573/64667224" Ref="C16"  Part="1" 
 F 0 "C16" H 5918 6996 50  0000 L CNN
 F 1 "10u" H 5918 6905 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 5838 6800 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_Tantal_D5.0mm_P2.50mm" H 5838 6800 50  0001 C CNN
 F 3 "~" H 5800 6950 50  0001 C CNN
 	1    5800 6950
 	1    0    0    -1  
@@ -1465,7 +1465,7 @@ AR Path="/64667269" Ref="D?"  Part="1"
 AR Path="/64492573/64667269" Ref="D3"  Part="1" 
 F 0 "D3" H 5800 6067 50  0000 C CNN
 F 1 "1N4148" H 5800 5976 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5800 5675 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp" H 5800 5675 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5800 5850 50  0001 C CNN
 	1    5800 5850
 	1    0    0    -1  
@@ -1646,7 +1646,7 @@ AR Path="/646672C2" Ref="C?"  Part="1"
 AR Path="/64492573/646672C2" Ref="C14"  Part="1" 
 F 0 "C14" H 5418 6396 50  0000 L CNN
 F 1 "1u" H 5418 6305 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 5338 6200 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_Tantal_D5.0mm_P2.50mm" H 5338 6200 50  0001 C CNN
 F 3 "~" H 5300 6350 50  0001 C CNN
 	1    5300 6350
 	1    0    0    -1  
@@ -1661,7 +1661,7 @@ AR Path="/646672C9" Ref="C?"  Part="1"
 AR Path="/64492573/646672C9" Ref="C18"  Part="1" 
 F 0 "C18" H 6818 6396 50  0000 L CNN
 F 1 "1u" H 6818 6305 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 6738 6200 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_Tantal_D5.0mm_P2.50mm" H 6738 6200 50  0001 C CNN
 F 3 "~" H 6700 6350 50  0001 C CNN
 	1    6700 6350
 	1    0    0    -1  
